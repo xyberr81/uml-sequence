@@ -52,3 +52,7 @@ npm run typecheck
 ```
 
 The goldens started as the output of the original Rust renderer, which this TypeScript version replaced. To change the look on purpose, edit `src/render.ts`, run `test/gen-golden.sh`, and review the golden diff.
+
+## License
+
+[MIT](LICENSE)
