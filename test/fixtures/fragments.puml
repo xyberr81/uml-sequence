@@ -1,0 +1,41 @@
+@startuml
+participant User
+participant App
+participant Auth
+database DB
+alt valid token
+  App -> Auth : verify
+  loop up to 3 times
+    Auth -> DB : lookup
+    opt cache miss
+      DB --> Auth : row
+    end
+  end
+else expired
+  Auth --> App : 401
+else
+  App -> App : log
+end
+par
+  User -> App : click
+else  second branch
+  App -> DB : write
+end
+break network down
+  App --> User : error
+end
+critical
+  DB -> DB : commit
+end
+group Retry policy
+  App -> Auth : retry
+end
+group
+  User -> User : think
+end
+loop empty fragment
+end
+alt a very long guard that should widen the fragment frame a lot
+  User -> App : x
+end
+@enduml

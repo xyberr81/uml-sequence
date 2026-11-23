@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fragments.puml</title>
+<style>body{margin:0;padding:24px;background:#fff}svg{display:block;max-width:100%;height:auto}</style>
+</head>
+<body>
+<div style="overflow-x:auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="547" height="1181" viewBox="0 0 547 1181" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="547" height="1181" fill="#fff"/>
+<g transform="translate(55 0)">
+<line x1="0" y1="63" x2="0" y2="1118" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="94" y1="63" x2="94" y2="1118" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="188" y1="63" x2="188" y2="1118" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="282" y1="63" x2="282" y2="1118" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="174" y="235" width="153.1" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="160" y="161" width="181.1" height="158" fill="none" stroke="#000" stroke-width="1.2"/>
+<line x1="80" y1="329" x2="355.1" y2="329" stroke="#000" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="80" y1="395" x2="355.1" y2="395" stroke="#000" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="80" y="87" width="275.1" height="376" fill="none" stroke="#000" stroke-width="1.2"/>
+<line x1="-14" y1="547" x2="296" y2="547" stroke="#000" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="-14" y="477" width="310" height="138" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="-14" y="629" width="190.5" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="268" y="715" width="121.2" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="80" y="801" width="130.6" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="-14" y="887" width="104.2" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="-14" y="973" width="310" height="37" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="-14" y="1024" width="485" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="-35" y="28" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="50" text-anchor="middle">User</text>
+<rect x="59" y="28" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="94" y="50" text-anchor="middle">App</text>
+<rect x="153" y="28" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="188" y="50" text-anchor="middle">Auth</text>
+<path d="M247 22A35 6 0 0 1 317 22V57A35 6 0 0 1 247 57Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M247 22A35 6 0 0 0 317 22" fill="none" stroke="#000" stroke-width="1.2"/><text x="282" y="50" text-anchor="middle">DB</text>
+<rect x="-35" y="1118" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="1140" text-anchor="middle">User</text>
+<rect x="59" y="1118" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="94" y="1140" text-anchor="middle">App</text>
+<rect x="153" y="1118" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="188" y="1140" text-anchor="middle">Auth</text>
+<path d="M247 1124A35 6 0 0 1 317 1124V1159A35 6 0 0 1 247 1159Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M247 1124A35 6 0 0 0 317 1124" fill="none" stroke="#000" stroke-width="1.2"/><text x="282" y="1152" text-anchor="middle">DB</text>
+<path d="M80 87H119.7V103L112.7 110H80Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="88" y="102"><tspan font-weight="bold">alt</tspan></text>
+<rect x="124.7" y="90.1" width="92.2" height="15.4" fill="#fff"/><text x="127.7" y="102">[valid token]</text>
+<line x1="94" y1="141" x2="188" y2="141" stroke="#000" stroke-width="1.2"/>
+<polygon points="188,141 178,136.5 178,145.5" fill="#000"/>
+<rect x="118.1" y="123.1" width="45.8" height="15.4" fill="#fff"/><text x="141" y="135" text-anchor="middle">verify</text>
+<path d="M160 161H211.4V177L204.4 184H160Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="168" y="176"><tspan font-weight="bold">loop</tspan></text>
+<rect x="216.4" y="164.1" width="106.5" height="15.4" fill="#fff"/><text x="219.4" y="176">[up to 3 times]</text>
+<line x1="188" y1="215" x2="282" y2="215" stroke="#000" stroke-width="1.2"/>
+<polygon points="282,215 272,210.5 272,219.5" fill="#000"/>
+<rect x="209.6" y="197.1" width="50.8" height="15.4" fill="#fff"/><text x="235" y="209" text-anchor="middle">lookup</text>
+<path d="M174 235H218V251L211 258H174Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="182" y="250"><tspan font-weight="bold">opt</tspan></text>
+<rect x="223" y="238.1" width="95" height="15.4" fill="#fff"/><text x="226" y="250">[cache miss]</text>
+<line x1="282" y1="289" x2="188" y2="289" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="198,284 188,289 198,294" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="218.8" y="271.1" width="32.3" height="15.4" fill="#fff"/><text x="235" y="283" text-anchor="middle">row</text>
+<rect x="85" y="333.1" width="67.6" height="15.4" fill="#fff"/><text x="88" y="345">[expired]</text>
+<line x1="188" y1="379" x2="94" y2="379" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="104,374 94,379 104,384" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="125.8" y="361.1" width="30.4" height="15.4" fill="#fff"/><text x="141" y="373" text-anchor="middle">401</text>
+<polyline points="94,428 124,428 124,445 94,445" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="94,445 104,440.5 104,449.5" fill="#000"/>
+<rect x="129" y="427.1" width="26.4" height="15.4" fill="#fff"/><text x="132" y="439">log</text>
+<path d="M-14 477H30V493L23 500H-14Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="-6" y="492"><tspan font-weight="bold">par</tspan></text>
+<line x1="0" y1="531" x2="94" y2="531" stroke="#000" stroke-width="1.2"/>
+<polygon points="94,531 84,526.5 84,535.5" fill="#000"/>
+<rect x="27.6" y="513.1" width="38.8" height="15.4" fill="#fff"/><text x="47" y="525" text-anchor="middle">click</text>
+<rect x="-9" y="551.1" width="116.3" height="15.4" fill="#fff"/><text x="-6" y="563">[second branch]</text>
+<line x1="94" y1="597" x2="282" y2="597" stroke="#000" stroke-width="1.2"/>
+<polygon points="282,597 272,592.5 272,601.5" fill="#000"/>
+<rect x="166.9" y="579.1" width="42.1" height="15.4" fill="#fff"/><text x="188" y="591" text-anchor="middle">write</text>
+<path d="M-14 629H47.9V645L40.9 652H-14Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="-6" y="644"><tspan font-weight="bold">break</tspan></text>
+<rect x="52.9" y="632.1" width="114.6" height="15.4" fill="#fff"/><text x="55.9" y="644">[network down]</text>
+<line x1="94" y1="683" x2="0" y2="683" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="10,678 0,683 10,688" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="27.5" y="665.1" width="39" height="15.4" fill="#fff"/><text x="47" y="677" text-anchor="middle">error</text>
+<path d="M268 715H341V731L334 738H268Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="276" y="730"><tspan font-weight="bold">critical</tspan></text>
+<polyline points="282,752 312,752 312,769 282,769" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="282,769 292,764.5 292,773.5" fill="#000"/>
+<rect x="317" y="751.1" width="57.2" height="15.4" fill="#fff"/><text x="320" y="763">commit</text>
+<path d="M80 801H190.6V817L183.6 824H80Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="88" y="816"><tspan font-weight="bold">Retry policy</tspan></text>
+<line x1="94" y1="855" x2="188" y2="855" stroke="#000" stroke-width="1.2"/>
+<polygon points="188,855 178,850.5 178,859.5" fill="#000"/>
+<rect x="121.5" y="837.1" width="39" height="15.4" fill="#fff"/><text x="141" y="849" text-anchor="middle">retry</text>
+<path d="M-14 887H47.9V903L40.9 910H-14Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="-6" y="902"><tspan font-weight="bold">group</tspan></text>
+<polyline points="0,924 30,924 30,941 0,941" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="0,941 10,936.5 10,945.5" fill="#000"/>
+<rect x="35" y="923.1" width="40.2" height="15.4" fill="#fff"/><text x="38" y="935">think</text>
+<path d="M-14 973H37.4V989L30.4 996H-14Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="-6" y="988"><tspan font-weight="bold">loop</tspan></text>
+<rect x="42.4" y="976.1" width="125.8" height="15.4" fill="#fff"/><text x="45.4" y="988">[empty fragment]</text>
+<path d="M-14 1024H25.7V1040L18.7 1047H-14Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="-6" y="1039"><tspan font-weight="bold">alt</tspan></text>
+<rect x="30.7" y="1027.1" width="431.3" height="15.4" fill="#fff"/><text x="33.7" y="1039">[a very long guard that should widen the fragment frame a lot]</text>
+<line x1="0" y1="1078" x2="94" y2="1078" stroke="#000" stroke-width="1.2"/>
+<polygon points="94,1078 84,1073.5 84,1082.5" fill="#000"/>
+<rect x="39.9" y="1060.1" width="14.1" height="15.4" fill="#fff"/><text x="47" y="1072" text-anchor="middle">x</text>
+</g>
+</svg>
+</div>
+</body>
+</html>

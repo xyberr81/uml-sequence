@@ -1,0 +1,18 @@
+@startuml
+hide footbox
+== Start ==
+A -> B : first flow
+...
+B --> A : later
+... 15 minutes later ...
+A -> B : resumed
+|||
+||45|
+A -> B : after space
+== Second flow\nsplit title ==
+B -> A : second flow
+==  ==
+A -> B : after empty divider
+...  waits ...
+...wait\nwith break...
+@enduml

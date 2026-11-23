@@ -1,0 +1,9 @@
+@startuml
+title Tiếng Việt	và ký tự
+participant "Người dùng" as U
+participant "Máy chủ" as S
+U -> S : Đăng nhập ngay
+S --> U : «OK» — 200 & done
+note over U, S : ½ ✓ 中文 emoji 🎉
+U -> S :   trailing spaces   
+@enduml

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="326" viewBox="0 0 296 326" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="296" height="326" fill="#fff"/>
+<g transform="translate(69.5 0)">
+<line x1="0" y1="89" x2="0" y2="275" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="165.7" y1="89" x2="165.7" y2="275" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="-49.5" y="54" width="99" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="76" text-anchor="middle">Người dùng</text>
+<rect x="125" y="54" width="81.4" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="165.7" y="76" text-anchor="middle">Máy chủ</text>
+<rect x="-49.5" y="275" width="99" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="297" text-anchor="middle">Người dùng</text>
+<rect x="125" y="275" width="81.4" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="165.7" y="297" text-anchor="middle">Máy chủ</text>
+<line x1="0" y1="128" x2="165.7" y2="128" stroke="#000" stroke-width="1.2"/>
+<polygon points="165.7,128 155.7,123.5 155.7,132.5" fill="#000"/>
+<rect x="25" y="110.1" width="115.8" height="15.4" fill="#fff"/><text x="82.9" y="122" text-anchor="middle">Đăng nhập ngay</text>
+<line x1="165.7" y1="163" x2="0" y2="163" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="10,158 0,163 10,168" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="17" y="145.1" width="131.7" height="15.4" fill="#fff"/><text x="82.9" y="157" text-anchor="middle">«OK» — 200 &amp; done</text>
+<path d="M-20 181H177.7L185.7 189V214H-20Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M177.7 181V189H185.7" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-12" y="200">½ ✓ 中文 emoji 🎉</text>
+<line x1="0" y1="247" x2="165.7" y2="247" stroke="#000" stroke-width="1.2"/>
+<polygon points="165.7,247 155.7,242.5 155.7,251.5" fill="#000"/>
+<rect x="29.3" y="229.1" width="107.1" height="15.4" fill="#fff"/><text x="82.9" y="241" text-anchor="middle">trailing spaces</text>
+<text x="78.4" y="32" text-anchor="middle" font-size="16"><tspan font-weight="bold">Tiếng Việt	và ký tự</tspan></text>
+</g>
+</svg>

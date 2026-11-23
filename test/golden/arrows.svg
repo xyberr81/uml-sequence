@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="746" height="818" viewBox="0 0 746 818" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="746" height="818" fill="#fff"/>
+<g transform="translate(55 0)">
+<line x1="0" y1="51" x2="0" y2="767" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="327.3" y1="51" x2="327.3" y2="767" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="421.3" y1="51" x2="421.3" y2="767" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="635.5" y1="51" x2="635.5" y2="767" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="-35" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="38" text-anchor="middle">A</text>
+<rect x="292.3" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="327.3" y="38" text-anchor="middle">B</text>
+<rect x="386.3" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="421.3" y="38" text-anchor="middle">C c</text>
+<rect x="600.5" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="635.5" y="38" text-anchor="middle">C c</text>
+<rect x="-35" y="767" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="789" text-anchor="middle">A</text>
+<rect x="292.3" y="767" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="327.3" y="789" text-anchor="middle">B</text>
+<rect x="386.3" y="767" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="421.3" y="789" text-anchor="middle">C c</text>
+<rect x="600.5" y="767" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="635.5" y="789" text-anchor="middle">C c</text>
+<line x1="0" y1="90" x2="327.3" y2="90" stroke="#000" stroke-width="1.2"/>
+<polygon points="327.3,90 317.3,85.5 317.3,94.5" fill="#000"/>
+<rect x="144.4" y="72.1" width="38.5" height="15.4" fill="#fff"/><text x="163.6" y="84" text-anchor="middle">sync</text>
+<line x1="327.3" y1="125" x2="0" y2="125" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="10,120 0,125 10,130" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="143.6" y="107.1" width="40.2" height="15.4" fill="#fff"/><text x="163.6" y="119" text-anchor="middle">reply</text>
+<line x1="0" y1="160" x2="327.3" y2="160" stroke="#000" stroke-width="1.2"/>
+<polyline points="317.3,155 327.3,160 317.3,165" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="140.3" y="142.1" width="46.6" height="15.4" fill="#fff"/><text x="163.6" y="154" text-anchor="middle">async</text>
+<line x1="0" y1="195" x2="327.3" y2="195" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="317.3,190 327.3,195 317.3,200" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="113.9" y="177.1" width="99.5" height="15.4" fill="#fff"/><text x="163.6" y="189" text-anchor="middle">dashed async</text>
+<line x1="327.3" y1="230" x2="0" y2="230" stroke="#000" stroke-width="1.2"/>
+<polygon points="0,230 10,225.5 10,234.5" fill="#000"/>
+<rect x="112.3" y="212.1" width="102.6" height="15.4" fill="#fff"/><text x="163.6" y="224" text-anchor="middle">reversed sync</text>
+<line x1="327.3" y1="265" x2="0" y2="265" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="10,260 0,265 10,270" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="111.5" y="247.1" width="104.3" height="15.4" fill="#fff"/><text x="163.6" y="259" text-anchor="middle">reversed reply</text>
+<line x1="327.3" y1="300" x2="0" y2="300" stroke="#000" stroke-width="1.2"/>
+<polyline points="10,295 0,300 10,305" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="108.3" y="282.1" width="110.7" height="15.4" fill="#fff"/><text x="163.6" y="294" text-anchor="middle">reversed async</text>
+<line x1="327.3" y1="335" x2="0" y2="335" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="10,330 0,335 10,340" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="81.8" y="317.1" width="163.6" height="15.4" fill="#fff"/><text x="163.6" y="329" text-anchor="middle">reversed dashed async</text>
+<polyline points="0,353 30,353 30,370 0,370" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="0,370 10,365.5 10,374.5" fill="#000"/>
+<rect x="35" y="352.1" width="68.7" height="15.4" fill="#fff"/><text x="38" y="364">self sync</text>
+<polyline points="0,388 30,388 30,405 0,405" fill="none" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="10,400 0,405 10,410" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="35" y="387.1" width="70.4" height="15.4" fill="#fff"/><text x="38" y="399">self reply</text>
+<polyline points="0,423 30,423 30,440 0,440" fill="none" stroke="#000" stroke-width="1.2"/>
+<polyline points="10,435 0,440 10,445" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="35" y="422.1" width="76.8" height="15.4" fill="#fff"/><text x="38" y="434">self async</text>
+<polyline points="421.3,458 451.3,458 451.3,494 421.3,494" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="421.3,494 431.3,489.5 431.3,498.5" fill="#000"/>
+<rect x="456.3" y="457.1" width="162.2" height="15.4" fill="#fff"/><text x="459.3" y="469">self on the last column</text>
+<rect x="456.3" y="476.1" width="104" height="15.4" fill="#fff"/><text x="459.3" y="488">with two lines</text>
+<line x1="0" y1="510" x2="421.3" y2="510" stroke="#000" stroke-width="1.2"/>
+<polygon points="421.3,510 411.3,505.5 411.3,514.5" fill="#000"/>
+<line x1="0" y1="545" x2="327.3" y2="545" stroke="#000" stroke-width="1.2"/>
+<polygon points="327.3,545 317.3,540.5 317.3,549.5" fill="#000"/>
+<rect x="126.1" y="527.1" width="75.2" height="15.4" fill="#fff"/><text x="163.6" y="539" text-anchor="middle">no spaces</text>
+<line x1="0" y1="580" x2="635.5" y2="580" stroke="#000" stroke-width="1.2"/>
+<polygon points="635.5,580 625.5,575.5 625.5,584.5" fill="#000"/>
+<rect x="269" y="562.1" width="97.6" height="15.4" fill="#fff"/><text x="317.8" y="574" text-anchor="middle">quoted target</text>
+<line x1="635.5" y1="615" x2="0" y2="615" stroke="#000" stroke-width="1.2"/>
+<polygon points="0,615 10,610.5 10,619.5" fill="#000"/>
+<rect x="266.5" y="597.1" width="102.6" height="15.4" fill="#fff"/><text x="317.8" y="609" text-anchor="middle">quoted source</text>
+<line x1="0" y1="650" x2="327.3" y2="650" stroke="#000" stroke-width="1.2"/>
+<polygon points="327.3,650 317.3,645.5 317.3,654.5" fill="#000"/>
+<rect x="17" y="632.1" width="293.3" height="15.4" fill="#fff"/><text x="163.6" y="644" text-anchor="middle">label with ' apostrophe &amp; &lt;angle&gt; "quotes"</text>
+<line x1="327.3" y1="723" x2="0" y2="723" stroke="#000" stroke-width="1.2"/>
+<polygon points="0,723 10,718.5 10,727.5" fill="#000"/>
+<rect x="143.3" y="667.1" width="40.7" height="15.4" fill="#fff"/><text x="163.6" y="679" text-anchor="middle">multi</text>
+<rect x="148.3" y="686.1" width="30.6" height="15.4" fill="#fff"/><text x="163.6" y="698" text-anchor="middle">line</text>
+<rect x="144.3" y="705.1" width="38.8" height="15.4" fill="#fff"/><text x="163.6" y="717" text-anchor="middle">label</text>
+<line x1="0" y1="739" x2="327.3" y2="739" stroke="#000" stroke-width="1.2"/>
+<polygon points="327.3,739 317.3,734.5 317.3,743.5" fill="#000"/>
+</g>
+</svg>

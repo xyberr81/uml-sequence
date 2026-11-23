@@ -1,0 +1,10 @@
+warning: line 5: bad participant, skipped: participant two words
+warning: line 7: unsupported, skipped: this line is nonsense
+warning: line 8: else outside a fragment
+warning: line 9: end without a fragment
+warning: line 10: unsupported, skipped: ...unterminated delay
+warning: line 11: unsupported, skipped: A -> B junk
+warning: line 12: unsupported, skipped: A => B : bad arrow
+warning: unclosed note (missing "end note")
+warning: 1 unclosed fragment(s) (missing "end")
+warning: deactivate A without an active bar

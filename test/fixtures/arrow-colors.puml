@@ -1,0 +1,8 @@
+participant A
+participant B
+A -[#red]> B : colored sync
+A -[#blue]-> B : colored reply
+A -[#0a0]>> B : colored async
+A <-[#red]- B : colored reversed
+A <<-[#red]- B : colored reversed async
+A -[#red B : unclosed bracket

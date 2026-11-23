@@ -1,0 +1,41 @@
+@startuml
+' every participant kind, declaration forms, ignored styling
+!theme plain
+skinparam monochrome true
+skinparam sequence {
+  ArrowColor #333
+  LifeLineBorderColor blue
+}
+title Participants\nand their shapes
+actor User
+actor "Long Actor Name" as LA
+participant "Web App" as Web #lightblue
+participant API order 10
+database "Postgres" as DB
+queue "Send queue (SQS)" as SQS
+boundary Gate
+control Ctl #red
+entity Ent
+collections "Workers\nPool" as Pool
+participant Api2 as "API two"
+participant "Quoted"
+participant dotted.name
+scale 1.5
+show footbox
+autoactivate off
+
+User -> Web : open
+Web -> API : GET /me
+API -> DB : SELECT
+DB --> API : row
+API -> SQS : enqueue
+SQS -> Gate : pass
+Gate -> Ctl : route
+Ctl -> Ent : load
+Ent -> Pool : fan out
+Pool --> LA : done
+LA -> Api2 : ping
+Api2 -> Quoted : x
+Quoted -> dotted.name : y
+Implicit -> Web : auto-created
+@enduml

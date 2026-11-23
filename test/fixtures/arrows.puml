@@ -1,0 +1,24 @@
+@startuml
+participant A
+participant B
+participant "C c" as C
+A -> B : sync
+B --> A : reply
+A ->> B : async
+A -->> B : dashed async
+A <- B : reversed sync
+A <-- B : reversed reply
+A <<- B : reversed async
+A <<-- B : reversed dashed async
+A -> A : self sync
+A --> A : self reply
+A ->> A : self async
+C -> C : self on the last column\nwith two lines
+A -> C
+A->B:no spaces
+A  ->  "C c"  :  quoted target
+"C c" -> A : quoted source
+A -> B : label with ' apostrophe & <angle> "quotes"
+B -> A : multi\nline\nlabel
+A -> B :
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+participant A
+participant B
+participant "Gamma G" as G
+note over A : single over
+note over A, B : spanning two
+note over A,G : spanning three
+note left of A : left note
+note right of B : right note\nwith a break
+note right of G : rightmost
+note left of G : left of the last
+A -> B : msg
+note over B
+  multi-line
+  note body & <escapes>
+end note
+note left of A
+first
+second
+endnote
+hnote over A : hexagon form
+rnote over B : rect form
+NOTE OVER A : uppercase keyword
+note over A
+end note
+note right of "Gamma G" : quoted target
+note over A, "Gamma G"
+  two lines\nplus a break
+end	note
+@enduml

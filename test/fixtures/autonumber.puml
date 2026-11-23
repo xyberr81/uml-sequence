@@ -1,0 +1,25 @@
+@startuml
+autonumber
+A -> B : one
+B --> A : two
+autonumber 10
+A -> B : ten
+A -> A : eleven self
+autonumber stop
+A -> B : plain
+autonumber 0
+A -> B : zero means one
+autonumber -3
+A -> B : negative
+B -> A
+autonumber +7
+A -> B : plus seven
+autonumber abc
+A -> B : bad token means one
+autonumber 99999999999999999999
+A -> B : overflow means one
+autonumberX
+A -> B : glued keyword
+autonumber 100 10
+A -> B : extra tokens ignored\nsecond line
+@enduml

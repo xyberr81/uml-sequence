@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>activation.puml</title>
+<style>body{margin:0;padding:24px;background:#fff}svg{display:block;max-width:100%;height:auto}</style>
+</head>
+<body>
+<div style="overflow-x:auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="478" height="490" viewBox="0 0 478 490" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="478" height="490" fill="#fff"/>
+<g transform="translate(55 0)">
+<line x1="0" y1="51" x2="0" y2="439" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="102.4" y1="51" x2="102.4" y2="439" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="245.3" y1="51" x2="245.3" y2="439" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="240.3" y="131" width="10" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="97.4" y="96" width="10" height="123" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="240.3" y="271" width="10" height="18" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="102.4" y="341" width="10" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="97.4" y="341" width="10" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="-5" y="69" width="10" height="362" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="240.3" y="411" width="10" height="20" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<rect x="-35" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="38" text-anchor="middle">Client</text>
+<rect x="67.4" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="102.4" y="38" text-anchor="middle">Server</text>
+<rect x="210.3" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="245.3" y="38" text-anchor="middle">Store</text>
+<rect x="-35" y="439" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="461" text-anchor="middle">Client</text>
+<rect x="67.4" y="439" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="102.4" y="461" text-anchor="middle">Server</text>
+<rect x="210.3" y="439" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="245.3" y="461" text-anchor="middle">Store</text>
+<line x1="5" y1="96" x2="97.4" y2="96" stroke="#000" stroke-width="1.2"/>
+<polygon points="97.4,96 87.4,91.5 87.4,100.5" fill="#000"/>
+<rect x="22.3" y="78.1" width="57.8" height="15.4" fill="#fff"/><text x="51.2" y="90" text-anchor="middle">request</text>
+<line x1="107.4" y1="131" x2="240.3" y2="131" stroke="#000" stroke-width="1.2"/>
+<polygon points="240.3,131 230.3,126.5 230.3,135.5" fill="#000"/>
+<rect x="155.9" y="113.1" width="36" height="15.4" fill="#fff"/><text x="173.9" y="125" text-anchor="middle">read</text>
+<line x1="240.3" y1="166" x2="107.4" y2="166" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="117.4,161 107.4,166 117.4,171" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="155.9" y="148.1" width="36" height="15.4" fill="#fff"/><text x="173.9" y="160" text-anchor="middle">data</text>
+<polyline points="107.4,184 137.4,184 137.4,201 107.4,201" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="107.4,201 117.4,196.5 117.4,205.5" fill="#000"/>
+<rect x="142.4" y="183.1" width="90.8" height="15.4" fill="#fff"/><text x="145.4" y="195">nested work</text>
+<polyline points="107.4,219 137.4,219 137.4,236 107.4,236" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="107.4,236 117.4,231.5 117.4,240.5" fill="#000"/>
+<rect x="142.4" y="218.1" width="74.3" height="15.4" fill="#fff"/><text x="145.4" y="230">inner step</text>
+<line x1="102.4" y1="271" x2="5" y2="271" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="15,266 5,271 15,276" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="17" y="253.1" width="68.4" height="15.4" fill="#fff"/><text x="51.2" y="265" text-anchor="middle">response</text>
+<polyline points="250.3,289 280.3,289 280.3,306 250.3,306" fill="none" stroke="#000" stroke-width="1.2"/>
+<polygon points="250.3,306 260.3,301.5 260.3,310.5" fill="#000"/>
+<rect x="285.3" y="288.1" width="120" height="15.4" fill="#fff"/><text x="288.3" y="300">self while active</text>
+<line x1="5" y1="341" x2="102.4" y2="341" stroke="#000" stroke-width="1.2"/>
+<polygon points="102.4,341 92.4,336.5 92.4,345.5" fill="#000"/>
+<rect x="29.9" y="323.1" width="42.7" height="15.4" fill="#fff"/><text x="51.2" y="335" text-anchor="middle">again</text>
+<line x1="112.4" y1="376" x2="245.3" y2="376" stroke="#000" stroke-width="1.2"/>
+<polygon points="245.3,376 235.3,371.5 235.3,380.5" fill="#000"/>
+<rect x="125.2" y="358.1" width="97.3" height="15.4" fill="#fff"/><text x="173.9" y="370" text-anchor="middle">double active</text>
+<line x1="5" y1="411" x2="240.3" y2="411" stroke="#000" stroke-width="1.2"/>
+<polygon points="240.3,411 230.3,406.5 230.3,415.5" fill="#000"/>
+<rect x="76.1" y="393.1" width="93.1" height="15.4" fill="#fff"/><text x="122.6" y="405" text-anchor="middle">never closed</text>
+</g>
+</svg>
+</div>
+</body>
+</html>

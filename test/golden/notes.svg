@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="616" height="942" viewBox="0 0 616 942" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="616" height="942" fill="#fff"/>
+<g transform="translate(113.7 0)">
+<line x1="0" y1="51" x2="0" y2="891" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="94" y1="51" x2="94" y2="891" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="239.7" y1="51" x2="239.7" y2="891" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="353.8" y1="51" x2="353.8" y2="891" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="-35" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="38" text-anchor="middle">A</text>
+<rect x="59" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="94" y="38" text-anchor="middle">B</text>
+<rect x="195.1" y="16" width="89.2" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="239.7" y="38" text-anchor="middle">Gamma G</text>
+<rect x="309.2" y="16" width="89.2" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="353.8" y="38" text-anchor="middle">Gamma G</text>
+<rect x="-35" y="891" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="913" text-anchor="middle">A</text>
+<rect x="59" y="891" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="94" y="913" text-anchor="middle">B</text>
+<rect x="195.1" y="891" width="89.2" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="239.7" y="913" text-anchor="middle">Gamma G</text>
+<rect x="309.2" y="891" width="89.2" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="353.8" y="913" text-anchor="middle">Gamma G</text>
+<path d="M-49.5 73H41.5L49.5 81V106H-49.5Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M41.5 73V81H49.5" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-41.5" y="92">single over</text>
+<path d="M-20 122H106L114 130V155H-20Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M106 122V130H114" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-12" y="141">spanning two</text>
+<path d="M-20 171H251.7L259.7 179V204H-20Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M251.7 171V179H259.7" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-12" y="190">spanning three</text>
+<path d="M-93.7 220H-20L-12 228V253H-93.7Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M-20 220V228H-12" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-85.7" y="239">left note</text>
+<path d="M106 269H207.1L215.1 277V321H106Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M207.1 269V277H215.1" fill="none" stroke="#000" stroke-width="1"/>
+<text x="114" y="288">right note</text>
+<text x="114" y="307">with a break</text>
+<path d="M251.7 337H333.8L341.8 345V370H251.7Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M333.8 337V345H341.8" fill="none" stroke="#000" stroke-width="1"/>
+<text x="259.7" y="356">rightmost</text>
+<path d="M106 386H219.7L227.7 394V419H106Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M219.7 386V394H227.7" fill="none" stroke="#000" stroke-width="1"/>
+<text x="114" y="405">left of the last</text>
+<line x1="0" y1="452" x2="94" y2="452" stroke="#000" stroke-width="1.2"/>
+<polygon points="94,452 84,447.5 84,456.5" fill="#000"/>
+<rect x="29.6" y="434.1" width="34.8" height="15.4" fill="#fff"/><text x="47" y="446" text-anchor="middle">msg</text>
+<path d="M3.9 470H176.1L184.1 478V522H3.9Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M176.1 470V478H184.1" fill="none" stroke="#000" stroke-width="1"/>
+<text x="11.9" y="489">multi-line</text>
+<text x="11.9" y="508">note body &amp; &lt;escapes&gt;</text>
+<path d="M-84.7 538H-20L-12 546V590H-84.7Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M-20 538V546H-12" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-76.7" y="557">first</text>
+<text x="-76.7" y="576">second</text>
+<path d="M-58.5 606H50.5L58.5 614V639H-58.5Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M50.5 606V614H58.5" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-50.5" y="625">hexagon form</text>
+<path d="M50.2 655H129.8L137.8 663V688H50.2Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M129.8 655V663H137.8" fill="none" stroke="#000" stroke-width="1"/>
+<text x="58.2" y="674">rect form</text>
+<path d="M-78.8 704H70.8L78.8 712V737H-78.8Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M70.8 704V712H78.8" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-70.8" y="723">uppercase keyword</text>
+<path d="M0 753H-8L0 761V767H0Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M-8 753V761H0" fill="none" stroke="#000" stroke-width="1"/>
+<path d="M365.8 783H473.4L481.4 791V816H365.8Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M473.4 783V791H481.4" fill="none" stroke="#000" stroke-width="1"/>
+<text x="373.8" y="802">quoted target</text>
+<path d="M-20 832H365.8L373.8 840V865H-20Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M365.8 832V840H373.8" fill="none" stroke="#000" stroke-width="1"/>
+<text x="-12" y="851">two lines\nplus a break</text>
+</g>
+</svg>

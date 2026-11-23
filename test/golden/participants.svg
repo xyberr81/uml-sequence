@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1611" height="752" viewBox="0 0 1611 752" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="1611" height="752" fill="#fff"/>
+<g transform="translate(48 0)">
+<line x1="0" y1="145" x2="0" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="119.2" y1="145" x2="119.2" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="252" y1="145" x2="252" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="352.5" y1="145" x2="352.5" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="454.3" y1="145" x2="454.3" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="595" y1="145" x2="595" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="738.6" y1="145" x2="738.6" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="847.8" y1="145" x2="847.8" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="947.3" y1="145" x2="947.3" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="1058.4" y1="145" x2="1058.4" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="1173.4" y1="145" x2="1173.4" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="1273.2" y1="145" x2="1273.2" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="1387.5" y1="145" x2="1387.5" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="1504.3" y1="145" x2="1504.3" y2="667" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<g fill="none" stroke="#000" stroke-width="1.2"><circle cx="0" cy="90" r="7" fill="#fff"/><path d="M0 97V110M-11 101H11M-9 122L0 110L9 122"/></g><text x="0" y="139" text-anchor="middle">User</text>
+<g fill="none" stroke="#000" stroke-width="1.2"><circle cx="119.2" cy="90" r="7" fill="#fff"/><path d="M119.2 97V110M108.2 101H130.2M110.2 122L119.2 110L128.2 122"/></g><text x="119.2" y="139" text-anchor="middle">Long Actor Name</text>
+<rect x="210.4" y="110" width="83.1" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="252" y="132" text-anchor="middle">Web App</text>
+<rect x="317.5" y="110" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="352.5" y="132" text-anchor="middle">API</text>
+<path d="M411.5 104A42.8 6 0 0 1 497.1 104V139A42.8 6 0 0 1 411.5 139Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M411.5 104A42.8 6 0 0 0 497.1 104" fill="none" stroke="#000" stroke-width="1.2"/><text x="454.3" y="132" text-anchor="middle">Postgres</text>
+<rect x="521.1" y="95" width="147.8" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="595" y="115" text-anchor="middle" font-size="12" font-style="italic">«queue»</text><text x="595" y="132" text-anchor="middle">Send queue (SQS)</text>
+<rect x="692.9" y="95" width="91.4" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="738.6" y="115" text-anchor="middle" font-size="12" font-style="italic">«boundary»</text><text x="738.6" y="132" text-anchor="middle">Gate</text>
+<rect x="808.3" y="95" width="79" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="847.8" y="115" text-anchor="middle" font-size="12" font-style="italic">«control»</text><text x="847.8" y="132" text-anchor="middle">Ctl</text>
+<rect x="911.3" y="95" width="72" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="947.3" y="115" text-anchor="middle" font-size="12" font-style="italic">«entity»</text><text x="947.3" y="132" text-anchor="middle">Ent</text>
+<rect x="1007.3" y="76" width="102.2" height="69" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1058.4" y="96" text-anchor="middle" font-size="12" font-style="italic">«collections»</text><text x="1058.4" y="113" text-anchor="middle">Workers</text><text x="1058.4" y="132" text-anchor="middle">Pool</text>
+<rect x="1133.5" y="110" width="79.7" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1173.4" y="132" text-anchor="middle">API two</text>
+<rect x="1237.2" y="110" width="71.9" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1273.2" y="132" text-anchor="middle">Quoted</text>
+<rect x="1333.1" y="110" width="108.8" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1387.5" y="132" text-anchor="middle">dotted.name</text>
+<rect x="1466" y="110" width="76.6" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1504.3" y="132" text-anchor="middle">Implicit</text>
+<g fill="none" stroke="#000" stroke-width="1.2"><circle cx="0" cy="675" r="7" fill="#fff"/><path d="M0 682V695M-11 686H11M-9 707L0 695L9 707"/></g><text x="0" y="724" text-anchor="middle">User</text>
+<g fill="none" stroke="#000" stroke-width="1.2"><circle cx="119.2" cy="675" r="7" fill="#fff"/><path d="M119.2 682V695M108.2 686H130.2M110.2 707L119.2 695L128.2 707"/></g><text x="119.2" y="724" text-anchor="middle">Long Actor Name</text>
+<rect x="210.4" y="667" width="83.1" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="252" y="689" text-anchor="middle">Web App</text>
+<rect x="317.5" y="667" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="352.5" y="689" text-anchor="middle">API</text>
+<path d="M411.5 673A42.8 6 0 0 1 497.1 673V708A42.8 6 0 0 1 411.5 708Z" fill="#fff" stroke="#000" stroke-width="1.2"/><path d="M411.5 673A42.8 6 0 0 0 497.1 673" fill="none" stroke="#000" stroke-width="1.2"/><text x="454.3" y="701" text-anchor="middle">Postgres</text>
+<rect x="521.1" y="667" width="147.8" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="595" y="687" text-anchor="middle" font-size="12" font-style="italic">«queue»</text><text x="595" y="704" text-anchor="middle">Send queue (SQS)</text>
+<rect x="692.9" y="667" width="91.4" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="738.6" y="687" text-anchor="middle" font-size="12" font-style="italic">«boundary»</text><text x="738.6" y="704" text-anchor="middle">Gate</text>
+<rect x="808.3" y="667" width="79" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="847.8" y="687" text-anchor="middle" font-size="12" font-style="italic">«control»</text><text x="847.8" y="704" text-anchor="middle">Ctl</text>
+<rect x="911.3" y="667" width="72" height="50" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="947.3" y="687" text-anchor="middle" font-size="12" font-style="italic">«entity»</text><text x="947.3" y="704" text-anchor="middle">Ent</text>
+<rect x="1007.3" y="667" width="102.2" height="69" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1058.4" y="687" text-anchor="middle" font-size="12" font-style="italic">«collections»</text><text x="1058.4" y="704" text-anchor="middle">Workers</text><text x="1058.4" y="723" text-anchor="middle">Pool</text>
+<rect x="1133.5" y="667" width="79.7" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1173.4" y="689" text-anchor="middle">API two</text>
+<rect x="1237.2" y="667" width="71.9" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1273.2" y="689" text-anchor="middle">Quoted</text>
+<rect x="1333.1" y="667" width="108.8" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1387.5" y="689" text-anchor="middle">dotted.name</text>
+<rect x="1466" y="667" width="76.6" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="1504.3" y="689" text-anchor="middle">Implicit</text>
+<line x1="0" y1="184" x2="252" y2="184" stroke="#000" stroke-width="1.2"/>
+<polygon points="252,184 242,179.5 242,188.5" fill="#000"/>
+<rect x="106.8" y="166.1" width="38.5" height="15.4" fill="#fff"/><text x="126" y="178" text-anchor="middle">open</text>
+<line x1="252" y1="219" x2="352.5" y2="219" stroke="#000" stroke-width="1.2"/>
+<polygon points="352.5,219 342.5,214.5 342.5,223.5" fill="#000"/>
+<rect x="269.3" y="201.1" width="65.9" height="15.4" fill="#fff"/><text x="302.3" y="213" text-anchor="middle">GET /me</text>
+<line x1="352.5" y1="254" x2="454.3" y2="254" stroke="#000" stroke-width="1.2"/>
+<polygon points="454.3,254 444.3,249.5 444.3,258.5" fill="#000"/>
+<rect x="371" y="236.1" width="64.8" height="15.4" fill="#fff"/><text x="403.4" y="248" text-anchor="middle">SELECT</text>
+<line x1="454.3" y1="289" x2="352.5" y2="289" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="362.5,284 352.5,289 362.5,294" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="387.3" y="271.1" width="32.3" height="15.4" fill="#fff"/><text x="403.4" y="283" text-anchor="middle">row</text>
+<line x1="352.5" y1="324" x2="595" y2="324" stroke="#000" stroke-width="1.2"/>
+<polygon points="595,324 585,319.5 585,328.5" fill="#000"/>
+<rect x="442.3" y="306.1" width="62.8" height="15.4" fill="#fff"/><text x="473.8" y="318" text-anchor="middle">enqueue</text>
+<line x1="595" y1="359" x2="738.6" y2="359" stroke="#000" stroke-width="1.2"/>
+<polygon points="738.6,359 728.6,354.5 728.6,363.5" fill="#000"/>
+<rect x="647.6" y="341.1" width="38.5" height="15.4" fill="#fff"/><text x="666.8" y="353" text-anchor="middle">pass</text>
+<line x1="738.6" y1="394" x2="847.8" y2="394" stroke="#000" stroke-width="1.2"/>
+<polygon points="847.8,394 837.8,389.5 837.8,398.5" fill="#000"/>
+<rect x="772.4" y="376.1" width="41.6" height="15.4" fill="#fff"/><text x="793.2" y="388" text-anchor="middle">route</text>
+<line x1="847.8" y1="429" x2="947.3" y2="429" stroke="#000" stroke-width="1.2"/>
+<polygon points="947.3,429 937.3,424.5 937.3,433.5" fill="#000"/>
+<rect x="880.3" y="411.1" width="34.6" height="15.4" fill="#fff"/><text x="897.5" y="423" text-anchor="middle">load</text>
+<line x1="947.3" y1="464" x2="1058.4" y2="464" stroke="#000" stroke-width="1.2"/>
+<polygon points="1058.4,464 1048.4,459.5 1048.4,468.5" fill="#000"/>
+<rect x="975.9" y="446.1" width="53.9" height="15.4" fill="#fff"/><text x="1002.8" y="458" text-anchor="middle">fan out</text>
+<line x1="1058.4" y1="499" x2="119.2" y2="499" stroke="#000" stroke-width="1.2" stroke-dasharray="6 4"/>
+<polyline points="129.2,494 119.2,499 129.2,504" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="569.6" y="481.1" width="38.5" height="15.4" fill="#fff"/><text x="588.8" y="493" text-anchor="middle">done</text>
+<line x1="119.2" y1="534" x2="1173.4" y2="534" stroke="#000" stroke-width="1.2"/>
+<polygon points="1173.4,534 1163.4,529.5 1163.4,538.5" fill="#000"/>
+<rect x="629" y="516.1" width="34.6" height="15.4" fill="#fff"/><text x="646.3" y="528" text-anchor="middle">ping</text>
+<line x1="1173.4" y1="569" x2="1273.2" y2="569" stroke="#000" stroke-width="1.2"/>
+<polygon points="1273.2,569 1263.2,564.5 1263.2,573.5" fill="#000"/>
+<rect x="1216.2" y="551.1" width="14.1" height="15.4" fill="#fff"/><text x="1223.3" y="563" text-anchor="middle">x</text>
+<line x1="1273.2" y1="604" x2="1387.5" y2="604" stroke="#000" stroke-width="1.2"/>
+<polygon points="1387.5,604 1377.5,599.5 1377.5,608.5" fill="#000"/>
+<rect x="1323.3" y="586.1" width="14.1" height="15.4" fill="#fff"/><text x="1330.4" y="598" text-anchor="middle">y</text>
+<line x1="1504.3" y1="639" x2="252" y2="639" stroke="#000" stroke-width="1.2"/>
+<polygon points="252,639 262,634.5 262,643.5" fill="#000"/>
+<rect x="831.5" y="621.1" width="93.4" height="15.4" fill="#fff"/><text x="878.1" y="633" text-anchor="middle">auto-created</text>
+<text x="757.3" y="32" text-anchor="middle" font-size="16"><tspan font-weight="bold">Participants</tspan></text>
+<text x="757.3" y="54" text-anchor="middle" font-size="16"><tspan font-weight="bold">and their shapes</tspan></text>
+</g>
+</svg>

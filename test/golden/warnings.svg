@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="379" height="255" viewBox="0 0 379 255" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#000">
+<rect width="379" height="255" fill="#fff"/>
+<g transform="translate(55 0)">
+<line x1="0" y1="51" x2="0" y2="204" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="94" y1="51" x2="94" y2="204" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="228.3" y1="51" x2="228.3" y2="204" stroke="#000" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="-14" y="110" width="122" height="72" fill="none" stroke="#000" stroke-width="1.2"/>
+<rect x="-35" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="38" text-anchor="middle">A</text>
+<rect x="59" y="16" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="94" y="38" text-anchor="middle">B</text>
+<rect x="153" y="16" width="150.6" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="228.3" y="38" text-anchor="middle">has space no alias</text>
+<rect x="-35" y="204" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="0" y="226" text-anchor="middle">A</text>
+<rect x="59" y="204" width="70" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="94" y="226" text-anchor="middle">B</text>
+<rect x="153" y="204" width="150.6" height="35" fill="#fff" stroke="#000" stroke-width="1.2"/><text x="228.3" y="226" text-anchor="middle">has space no alias</text>
+<line x1="0" y1="90" x2="94" y2="90" stroke="#000" stroke-width="1.2"/>
+<polygon points="94,90 84,85.5 84,94.5" fill="#000"/>
+<rect x="31" y="72.1" width="32" height="15.4" fill="#fff"/><text x="47" y="84" text-anchor="middle">fine</text>
+<path d="M-14 110H25.7V126L18.7 133H-14Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="-6" y="125"><tspan font-weight="bold">alt</tspan></text>
+<rect x="30.7" y="113.1" width="49.7" height="15.4" fill="#fff"/><text x="33.7" y="125">[open]</text>
+<line x1="0" y1="164" x2="94" y2="164" stroke="#000" stroke-width="1.2"/>
+<polygon points="94,164 84,159.5 84,168.5" fill="#000"/>
+<rect x="23.6" y="146.1" width="46.9" height="15.4" fill="#fff"/><text x="47" y="158" text-anchor="middle">inside</text>
+</g>
+</svg>

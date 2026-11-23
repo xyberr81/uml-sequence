@@ -1,0 +1,25 @@
+@startuml
+participant Client
+participant Server
+participant Store
+activate Client
+Client -> Server ++ : request
+Server -> Store ++ : read
+Store --> Server -- : data
+Server -> Server ++ : nested work
+Server -> Server : inner step
+deactivate Server
+Server --> Client -- : response
+activate Store
+Store -> Store : self while active
+deactivate Store
+Client -> Server : again
+activate Server
+activate Server
+Server -> Store : double active
+deactivate Server
+deactivate Server
+deactivate Server
+destroy Store
+Client -> Store ++ : never closed
+@enduml

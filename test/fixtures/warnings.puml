@@ -1,0 +1,18 @@
+@startuml
+participant A
+participant B
+participant "has space no alias"
+participant two words
+A -> B : fine
+this line is nonsense
+else
+end
+...unterminated delay
+A -> B junk
+A => B : bad arrow
+deactivate A
+alt open
+  A -> B : inside
+note over A
+  never closed
+@enduml
