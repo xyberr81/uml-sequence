@@ -1,0 +1,6 @@
+entity "Loan item" {
+  * id : int
+  note : text // café ↔ naïve & <tags>
+}
+entity Tag
+"Loan item" }|..|{ Tag : tagged

@@ -11,9 +11,12 @@ The renderer owns the style: dashed lifelines, labels on a white backing, and co
 Needs Node 22.18 or later. No system libraries are required; PNGs are rasterized by `@resvg/resvg-js`.
 
 ```sh
-git clone https://github.com/xyberr81/uml-sequence ~/.claude/skills/uml-sequence
+git clone https://github.com/xyberr81/skills ~/skills
+ln -s ~/skills/skills/uml-sequence ~/.claude/skills/uml-sequence
 cd ~/.claude/skills/uml-sequence && npm install
 ```
+
+The skill's steps call the renderer at `~/.claude/skills/uml-sequence/`, so keep that path.
 
 Then ask Claude Code to draw a sequence diagram. [SKILL.md](SKILL.md) holds the steps the agent follows and the supported syntax.
 
@@ -55,4 +58,4 @@ The goldens started as the output of the original Rust renderer, which this Type
 
 ## License
 
-[MIT](LICENSE)
+[MIT](../../LICENSE)

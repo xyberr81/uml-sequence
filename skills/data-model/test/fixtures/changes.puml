@@ -1,0 +1,24 @@
+@startuml
+title Holds
+' a comment
+hide circle
+skinparam linetype ortho
+entity Copy {
+  * id : int
+  --
+  book_id : int
+  on_loan : bool <<new>>
+  shelf : text <<deleted>>
+  due : date → timestamptz
+  returned : date -> timestamptz
+}
+entity Hold <<new>> {
+  * id : int
+  copy_id : int
+}
+entity Reservation <<deleted>> {
+  * id : int
+}
+Copy ||--o{ Hold : held by
+Hold }o..|| Reservation
+@enduml

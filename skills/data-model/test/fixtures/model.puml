@@ -1,0 +1,45 @@
+@startuml
+title Holds on loaned books
+
+entity Member {
+  * id : int
+  name : text
+  email : text
+}
+
+entity Book {
+  * id : int
+  title : text
+}
+
+entity Copy {
+  * id : int
+  book_id : int <<FK>>
+  branch : text
+}
+
+entity Loan {
+  * id : int
+  copy_id : int <<FK>>
+  member_id : int <<FK>>
+  due : date
+}
+
+entity Hold <<new>> {
+  * id : int
+  book_id : int <<FK>>
+  member_id : int <<FK>>
+  copy_id : int <<FK>> // set when a copy is held back
+  --
+  state : text // waiting, ready or done
+  created_at : timestamptz
+  ready_at : timestamptz
+}
+
+Book::id ||--o{ Copy::book_id : has
+Copy::id ||--o{ Loan::copy_id
+Member::id ||--o{ Loan::member_id : borrows
+Book::id ||--o{ Hold::book_id : held by
+Member::id ||--o{ Hold::member_id
+Copy::id |o--o{ Hold::copy_id : set aside for
+@enduml

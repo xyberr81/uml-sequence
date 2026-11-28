@@ -1,0 +1,25 @@
+{
+  "name": "data-model",
+  "version": "1.0.0",
+  "description": "Database schema (physical data model) diagrams from a PlantUML subset, as PNG, SVG or HTML.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "data-model": "./src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}

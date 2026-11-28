@@ -1,0 +1,15 @@
+entity A {
+  * id : int
+  b_id : int <<FK>>
+}
+entity B {
+  * id : int
+}
+frobnicate A
+A ||--o{ Ghost
+A::nope ||--o{ B::id
+A::id ||--o{ A::id
+entity A {
+}
+entity Open {
+  * id : int

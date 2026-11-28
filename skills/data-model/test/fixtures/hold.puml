@@ -1,0 +1,9 @@
+entity Copy {
+  * id : int
+  book_id : int <<FK>>
+}
+entity Hold <<new>> {
+  * id : int
+  copy_id : int <<FK>> // set when a copy is held back
+}
+Copy::id |o--o{ Hold::copy_id : set aside for

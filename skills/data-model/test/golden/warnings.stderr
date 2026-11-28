@@ -1,0 +1,6 @@
+warning: line 8: unsupported, skipped: frobnicate A
+warning: line 9: relation names an undeclared entity, skipped: A ||--o{ Ghost
+warning: line 10: A has no column nope, the relation kept at table level: A::nope ||--o{ B::id
+warning: line 11: A joins row id to itself, which is likely a typo: A::id ||--o{ A::id
+warning: line 12: entity A declared twice, the first kept
+warning: unclosed entity Open (missing "}")
