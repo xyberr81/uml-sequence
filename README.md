@@ -1,6 +1,6 @@
 # skills
 
-Agent skills for Claude Code. Each one lives in its own folder under `skills/` with its own README, tests and dependencies.
+Various agent skills for Claude Code, written by me. Each one lives in its own folder under `skills/` with its own README, tests and dependencies.
 
 | Skill | What it draws |
 | --- | --- |
